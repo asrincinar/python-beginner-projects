@@ -20,4 +20,4 @@ while gizlisayi != tahmin and deneme < 3:
 if tahmin == gizlisayi:
   print("DOGRU KAZANDIN")
 else: 
-  print("Kaybettin sayı", gizlisayi, "'idi'")
+  print("Kaybettin sayı", gizlisayi, "'idi")
