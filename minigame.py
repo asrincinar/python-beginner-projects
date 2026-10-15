@@ -67,13 +67,20 @@ Sanki yere bir anahtar düşmüş gibi...
 2 - Depodan çık""")
   secim2 = int(input("seciminiz:  "))
   if secim2 == 1:
-    print("""Rafların arkasına doğru ilerliyorsun.
-Yerde paslı bir anahtar buluyorsun.
-Anahtarı cebine koyup depodan çıkıyorsun.""")
+    print("""Çıkış kapısına geri dönüyorsun.
+Anahtarı kilide sokup çeviriyorsun.
+
+Kilit açılıyor!
+
+Yağmurun altına çıkıp koşmaya başlıyorsun.
+Arkandan restoranın kapısı yavaşça kapanıyor.
+
+İYİ SON — RESTORANDAN KURTULDUN.""")
   elif secim2 == 2:
-    print("""Depodan çıkıp koridora dönüyorsun.
-Arkana baktığında rafların arasındaki gölge kayboluyor.
-Ama hâlâ çıkış kapısının anahtarına sahip değilsin.""")
-  
-    
-    
+    print("""Çıkış kapısına ulaşıyorsun.
+Kapıyı zorluyorsun ama açılmıyor.
+
+Hoparlörden aynı ses duyuluyor:
+"Sana mutfağa gitme demiştim..."
+
+KÖTÜ SON — RESTORANDA MAHSUR KALDIN.""")
